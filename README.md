@@ -2,7 +2,7 @@
 
 Personal portfolio website of **Urmit Mahida**, Data Scientist & GenAI Engineer.
 
-🌐 **Live:** [urmitmahida.netlify.app](https://urmit-ai.netlify.app/)
+🌐 **Live:** [https://urmit-ai.netlify.app/](https://urmit-ai.netlify.app/)
 
 ---
 
