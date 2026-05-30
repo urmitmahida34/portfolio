@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  @apply bg-black text-gray-100;
+  overflow-x: hidden;
+}
+
+.gradient-text {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-500;
+}
+
+.nav-link {
+  @apply relative px-3 py-2 text-sm text-gray-400 hover:text-white transition-colors rounded-lg hover:bg-blue-500/[0.08];
+}
+
+.tag {
+  @apply px-2.5 py-1 text-xs bg-cyan-500/15 border border-cyan-500/20 text-cyan-300 rounded;
+}
+
+.tag-sm {
+  @apply px-2 py-0.5 text-xs bg-cyan-500/10 border border-cyan-500/15 text-cyan-400 rounded;
+}
+
+.gradient-grid {
+  background-image:
+    linear-gradient(to right, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+  background-size: 60px 60px;
+  mask-image: radial-gradient(circle at 50% 0%, white 20%, transparent 70%);
+}
+
+.light-rays-container {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.cursor-copy {
+  cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2'></path><rect x='8' y='2' width='8' height='4' rx='1' ry='1'></rect></svg>") 12 12, pointer;
+}
