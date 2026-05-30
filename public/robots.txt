@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://urmit-ai.netlify.app/sitemap.xml
