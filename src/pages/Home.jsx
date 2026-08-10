@@ -91,7 +91,7 @@ const Home = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.3 }}
         >
-          2+ years building production AI systems at NTT Data &amp; Zee Entertainment —
+          ~3 years building production AI systems at NTT Data &amp; Zee Entertainment —
           RAG pipelines, multi-agent LLMs, and forecasting models deployed on Azure &amp; GCP
           with measurable business impact.
         </motion.p>
@@ -151,7 +151,7 @@ const Home = () => {
         >
           {[
             { icon: Sparkles, id: 'experience',   stat: '✦', label: 'AI in Production' },
-            { icon: Clock,    id: 'about',         stat: '2+', label: 'Years in AI / ML' },
+            { icon: Clock,    id: 'about',         stat: '~3', label: 'Years in AI / ML' },
             { icon: BookOpen, id: 'publications',  stat: '1',  label: 'IEEE Publication' },
           ].map(({ icon: Icon, id, stat, label }) => (
             <motion.button
