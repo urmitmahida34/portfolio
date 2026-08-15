@@ -30,7 +30,7 @@ const About = () => {
                   {/* Glow ring */}
                   <div className="absolute inset-0 rounded-full bg-gradient-to-br from-cyan-500/30 to-blue-500/20 blur-md scale-110" />
                   <img
-                    src="/portfolio_pic.png"
+                    src="/professional_pic_urmit.jpeg"
                     alt="Urmit Mahida"
                     className="relative w-full h-full rounded-full object-cover object-top border-2 border-white/10"
                   />
